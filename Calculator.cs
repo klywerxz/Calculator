@@ -58,9 +58,10 @@ class Program
                 Console.WriteLine($"Результат: {num1} -- = {num1 - 1}");
                 break;
             default:
-                Console.WriteLine("Ошибка: Неверный выбор операции.");
+                Console.WriteLine($"Ошибка: Неверный выбор операции.");
                 break;
         }        
     }         
 
 }
+
