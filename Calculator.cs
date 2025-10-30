@@ -30,36 +30,37 @@ class Program
         switch (choice)
         {
             case "1":
-                Console.WriteLine("Результат: {num1} + {num2} = {num1 + num2}");
+                Console.WriteLine($"Результат: {num1} + {num2} = {num1 + num2}");
                 break;
             case "2":
-                Console.WriteLine("Результат: {num1} - {num2} = {num1 - num2}");
+                Console.WriteLine($"Результат: {num1} - {num2} = {num1 - num2}");
                 break;
             case "3":
-                Console.WriteLine("Результат: {num1} * {num2} = {num1 * num2}");
+                Console.WriteLine($"Результат: {num1} * {num2} = {num1 * num2}");
                 break;
             case "4":
                 if (num2 != 0)
                 {
-                    Console.WriteLine("Результат: {num1} / {num2} = {num1 / num2}");
+                    Console.WriteLine($"Результат: {num1} / {num2} = {num1 / num2}");
                 }
                 else
                 {
-                    Console.WriteLine("Ошибка: Деление на ноль!");
+                    Console.WriteLine($"Ошибка: Деление на ноль!");
                 }
                 break;
             case "5":
-                Console.WriteLine("Результат: {num1} % {num2} = {num1 % num2}");
+                Console.WriteLine($"Результат: {num1} % {num2} = {num1 % num2}");
                 break;
             case "6":
-                Console.WriteLine("Результат: {num1} ++ = {num1 + 1}");
+                Console.WriteLine($"Результат: {num1} ++ = {num1 + 1}");
                 break;
             case "7":
-                Console.WriteLine("Результат: {num1} -- = {num1 - 1}");
+                Console.WriteLine($"Результат: {num1} -- = {num1 - 1}");
                 break;
             default:
                 Console.WriteLine("Ошибка: Неверный выбор операции.");
                 break;
         }        
     }         
+
 }
